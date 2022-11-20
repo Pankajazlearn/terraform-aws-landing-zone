@@ -80,12 +80,12 @@ landing_zone_components = {
   landing_zone_guardduty_invite_accepter            = "./*.tfvars"
   landing_zone_guardduty_member                     = "./*.tfvars"
 }
-
 landing_zone_providers = {
   default = {
-    account_id = "123456789000"
-    region     = "us-east-1"
+    account_id = "247778203522"
+    region     = "eu-west-2"
   }
+
   #  ,core_account_security = {
   #    account_id = "123456789001"
   #    region     = "us-east-1"
